@@ -1,227 +1,116 @@
 #EXTM3U
 #EXTINF:-1 group-title="StreamTP4",Gran Hermano CAM 1
-https://ca8s9.crackstreamslivehd.com/global/grahermanocam1/index.m3u8?token=4bf5255126b1a10eb9b9b6fc1f77287c9ee9b9a9-72-1744886295-1744853895&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Gran Hermano CAM 2
-https://print.crackstreamslivehd.com/global/grahermanocam2/index.m3u8?token=7bd0f1714aaf1a1beccdde039117cecc0e32caf4-07-1744886300-1744853900&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Gran Hermano CAM 3
-https://tokio.crackstreamslivehd.com/global/grahermanocam3/index.m3u8?token=12f8d8c973d65ade77ec98c15f6671b6f1a0f741-ab-1744886305-1744853905&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Gran Hermano CAM 24H
-https://laisa.crackstreamslivehd.com/global/granhermanocamara24horas/index.m3u8?token=8101ecad71243cdfe85732b003257d2522afb46d-12-1744886310-1744853910&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Gran Hermano MultiCAM
-https://24a.crackstreamslivehd.com/global/granhermanomulticam/index.m3u8?token=3455eb5f15304503745b30ec7fbf3d1249a11cf1-d2-1744886315-1744853915&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 1
-https://florcd.crackstreamslivehd.com/global/espn/index.m3u8?token=dfdc98fdcc00900928c0bf86e1010b95da196f7e-aa-1744886320-1744853920&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 2
-https://51a.crackstreamslivehd.com/global/espn2/index.m3u8?token=e3b86a72665bf279ef67fbe10c83381280dbe79f-66-1744886325-1744853925&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 3
-https://socio.crackstreamslivehd.com/global/espn3/index.m3u8?token=5722fd946b3e7eeebb58bd2fd831e33bf3b8ef14-66-1744886330-1744853930&ip=20.42.17.117
+#EXTINF:-1 group-title="StreamTP4",ESPN 4
 #EXTINF:-1 group-title="StreamTP4",ESPN 5
-https://51a.crackstreamslivehd.com/global/espn5/index.m3u8?token=8988fc42239e8bb9996cae5ae63b95d285b3a7d2-91-1744886352-1744853952&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 6
-https://laisa.crackstreamslivehd.com/global/espn6/index.m3u8?token=fc04569d79e4d1bf4796ca95251c0d0c6b536670-da-1744886357-1744853957&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 7
-https://doc.crackstreamslivehd.com/global/espn7/index.m3u8?token=85fca74ecaa949aaf9fcbc4a69b6108d75f94c90-15-1744886362-1744853962&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Win Sports +
-https://socio.crackstreamslivehd.com/global/winplus/index.m3u8?token=d950c56daae39c4923d0180b5bbd6c5a16cb556f-7c-1744886367-1744853967&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Win Sports + (Op2)
-https://print.crackstreamslivehd.com/global/winplus2/index.m3u8?token=2ac64490f72bd0984de515c46d46419e3dd75156-c4-1744886372-1744853972&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Win Sports
-https://london.crackstreamslivehd.com/global/winsports/index.m3u8?token=8031f828a5fd3112d0064a4c5cbc4ca7b92c4c10-8b-1744886377-1744853977&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Win Play +
-https://51a.crackstreamslivehd.com/global/winplusonline1/index.m3u8?token=84f42c81db8bbbcf5679a6a4a23b21570c024018-2d-1744886382-1744853982&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Sports 1 (Argentina)
-https://51a.crackstreamslivehd.com/global/fox1ar/index.m3u8?token=ecde2ac7dc9b406cc541bdc9e170b774216730dd-af-1744886387-1744853987&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Sports 2 (Argentina)
-https://ca8s9.crackstreamslivehd.com/global/fox2ar/index.m3u8?token=8c01801a4ad6e6ef369339298a3af693367ddab7-0e-1744886391-1744853991&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Sports 3 (Argentina)
-https://socio.crackstreamslivehd.com/global/fox3ar/index.m3u8?token=694eaa337a7f05871469b08338957c0a46fb56ee-3a-1744886396-1744853996&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Dsports
-https://doc.crackstreamslivehd.com/global/dsports/index.m3u8?token=55addae96d1a5311bc34df55a67e035df128ff0c-f2-1744886401-1744854001&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Dsports 2
-https://tokio.crackstreamslivehd.com/global/dsports2/index.m3u8?token=787ea64f1c51194e6a9c67cbc11345f926505c29-c0-1744886406-1744854006&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Dsports +
-https://14c5.crackstreamslivehd.com/global/dsportsplus/index.m3u8?token=a70725936a011b22c9e92dd3f51f5d630dcf4c86-ca-1744886411-1744854011&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TNT Sports Chile
-https://51a.crackstreamslivehd.com/global/tntsportschile/index.m3u8?token=dc66ae9713f6a375a0911b64557f41da3820e0af-ea-1744886416-1744854016&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TNT Sports Argentina
-https://pecdl.crackstreamslivehd.com/global/tntsports/index.m3u8?token=250ae15a777951a8804180b9055e15df2753fbf8-1e-1744886421-1744854021&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN Premium Argentina
-https://florcd.crackstreamslivehd.com/global/espnpremium/index.m3u8?token=207051facfc9080db9f4e26571bc468eef7e91bf-d7-1744886426-1744854026&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TyC Sports
-https://london.crackstreamslivehd.com/global/tycsports/index.m3u8?token=17935b41fbb56d5ae66f2830b2999bfd8a934178-9e-1744886431-1744854031&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Telefe
-https://florcd.crackstreamslivehd.com/global/telefe/index.m3u8?token=443870ed94c378d10771ef21953e67abe58eede4-9a-1744886436-1744854036&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TV Pública
-https://tokio.crackstreamslivehd.com/global/tv_publica/index.m3u8?token=b39e105ed77f8293e61abe22d877537f1f4f3d05-95-1744886441-1744854041&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Liga 1 MAX
-https://doc.crackstreamslivehd.com/global/liga1max/index.m3u8?token=cc4d264c5daf28fea706a519419935f4425a6542-00-1744886446-1744854046&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",GolTV
-https://miami.crackstreamslivehd.com/global/goltv/index.m3u8?token=648ad93827c1f1a97bb7eb1479515bc1f32db687-f9-1744886451-1744854051&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",VTV +
-https://socio.crackstreamslivehd.com/global/vtvplus/index.m3u8?token=b90ab19dbe08aea79a7bdea472e428dae90135bb-df-1744886456-1744854056&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",GolPeru
-https://madrid.crackstreamslivehd.com/global/golperu/index.m3u8?token=9e64b5e4bdec8fb8e7a1ec8b5964bddac7eda73b-77-1744886461-1744854061&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN Deportes USA
-https://london.crackstreamslivehd.com/global/espndeportes/index.m3u8?token=ba280c3373eea75f6b98a85dc8212882d87f77ad-91-1744886466-1744854066&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TUDN USA
-https://manolo.crackstreamslivehd.com/global/tudn_usa/index.m3u8?token=dc5c00b96d1ba4cbe33c4d6eec986b8cfdc687b9-9c-1744886471-1744854071&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Sports 1 USA
-https://madrid.crackstreamslivehd.com/global/fox_1_usa/index.m3u8?token=97caaf77a4d7fd15c68785b44ecec6a073edf78e-4d-1744886476-1744854076&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Sports 2 USA
-https://madrid.crackstreamslivehd.com/global/fox_2_usa/index.m3u8?token=48f90e3ecd3cdf1aa1fb5b7016381fa9185eb10d-c8-1744886480-1744854080&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Universo USA
-https://14c5.crackstreamslivehd.com/global/universo_usa/index.m3u8?token=d415e0ce376998affcc0fc8cd7aafd8ae20aad06-a8-1744886485-1744854085&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Univisíon USA
-https://pecdl.crackstreamslivehd.com/global/univision_usa/index.m3u8?token=754a952d14b6de4fcde57335a9daa1e9f99088ea-c9-1744886490-1744854090&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Deportes USA
-https://miami.crackstreamslivehd.com/global/fox_deportes_usa/index.m3u8?token=b945bac81ab7ec77c5f446863004c9b5afc2d1b7-22-1744886495-1744854095&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Azteca Deportes MX
-https://manolo.crackstreamslivehd.com/global/azteca_deportes/index.m3u8?token=04eebbd9e050b663cfcc32294acb716cc7a403b9-1b-1744886500-1744854100&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Sports 1 MX
-https://tokio.crackstreamslivehd.com/global/foxsportsmx/index.m3u8?token=20267f18413113f6230bee72e87b27abd71a3477-c6-1744886505-1744854105&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Sports 2 MX
-https://miami.crackstreamslivehd.com/global/foxsports2mx/index.m3u8?token=dd175d6fa605806031e481bf0767c2fb68893bfe-f4-1744886510-1744854110&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Sports 3 MX
-https://florcd.crackstreamslivehd.com/global/foxsports3mx/index.m3u8?token=5a1cbe53490127e23c533f65fc63f94a4b51a62e-82-1744886515-1744854115&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Sports Premium
-https://manolo.crackstreamslivehd.com/global/foxsportspremium/index.m3u8?token=54a714ac9bc9159c4733204db65da65c19d683e0-a1-1744886520-1744854120&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN MX
-https://manolo.crackstreamslivehd.com/global/espnmx/index.m3u8?token=d9c268370273a0fa6609005394b67796a32a61df-ee-1744886525-1744854125&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 2 MX
-https://print.crackstreamslivehd.com/global/espn2mx/index.m3u8?token=252eeb61d5f4df2bf9d9d0ae7065d58eb7edd8fc-90-1744886530-1744854130&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 3 MX
-https://tokio.crackstreamslivehd.com/global/espn3mx/index.m3u8?token=579c79554d68027ecf9be1d10eb403d2bff43e07-fa-1744886535-1744854135&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TVC Deportes MX
-https://print.crackstreamslivehd.com/global/tvc_deportes/index.m3u8?token=093915e889b8cd235d5fa78f9fe6c5503794106a-f2-1744886540-1744854140&ip=20.42.17.117
+#EXTINF:-1 group-title="StreamTP4",HI! Sports MX
 #EXTINF:-1 group-title="StreamTP4",DAZN 1 ES
-https://laisa.crackstreamslivehd.com/global/dazn1/index.m3u8?token=5ba0ff10d55a75bdd324204547361af89251c540-2a-1744886561-1744854161&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",DAZN 2 ES
-https://doc.crackstreamslivehd.com/global/dazn2/index.m3u8?token=540126fe5e69f463fd03fa771f77d9be91719c9b-ac-1744886566-1744854166&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",DAZN LaLiga
-https://print.crackstreamslivehd.com/global/dazn_laliga/index.m3u8?token=c345200f80c5160216212ea0b2666e22ae6cb411-04-1744886571-1744854171&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Movistar+ LaLiga
-https://london.crackstreamslivehd.com/global/movistarlaliga/index.m3u8?token=1a2ee0f91ccdf6f797fb1bf1a3c5776bfec03809-12-1744886576-1744854176&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Movistar Liga de Campeones
-https://14c5.crackstreamslivehd.com/global/movistarligadecampeones/index.m3u8?token=2d3eb35ca65e6b1bc65376b3478f8f502b14bb5a-93-1744886581-1744854181&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Caracol TV
-https://tokio.crackstreamslivehd.com/global/caracoltv/index.m3u8?token=b26977e60c09866b6c6a40c95360053e7d5fa6e1-4c-1744886586-1744854186&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TNT 1 GB
-https://51a.crackstreamslivehd.com/global/tnt_1_gb/index.m3u8?token=1e6ac7c880dac2fd523a0a46c7d65a46d0895908-08-1744886591-1744854191&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TNT 2 GB
-https://51a.crackstreamslivehd.com/global/tnt_2_gb/index.m3u8?token=f88b74b4d3d5f37a6b4c056dca0ecdf46405cc59-2a-1744886596-1744854196&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TNT 3 GB
-https://pecdl.crackstreamslivehd.com/global/tnt_3_gb/index.m3u8?token=4bfa8faca697a72f6f94dc3bde2cac25127772d8-5e-1744886601-1744854201&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TNT 4 GB
-https://socio.crackstreamslivehd.com/global/tnt_4_gb/index.m3u8?token=249bf16545fdaa9f08a966a2290a2bd37c5837fb-f6-1744886606-1744854206&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Bundesliga 1
-https://51a.crackstreamslivehd.com/global/sky_bundesliga1/index.m3u8?token=4cc16bca993f79afc8fe91126cf70d19302dfe5f-d9-1744886611-1744854211&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Bundesliga 2
-https://madrid.crackstreamslivehd.com/global/sky_bundesliga2/index.m3u8?token=451566a763c161fa945ba2100e1b9141b78c9b74-6f-1744886616-1744854216&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Bundesliga 3
-https://24a.crackstreamslivehd.com/global/sky_bundesliga3/index.m3u8?token=29fbd53a502b90d8256aa3c50d02730d980d8f50-d4-1744886621-1744854221&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Bundesliga 4
-https://laisa.crackstreamslivehd.com/global/sky_bundesliga4/index.m3u8?token=762748607f59eaa16db2e7079fc844e004e25caf-a2-1744886626-1744854226&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Bundesliga 5
-https://manolo.crackstreamslivehd.com/global/sky_bundesliga5/index.m3u8?token=6e17a25fd1c3e982c6294618fd5458e9db22ca3c-5b-1744886631-1744854231&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Eleven Sports 1 PT
-https://pecdl.crackstreamslivehd.com/global/eleven1_pt/index.m3u8?token=114acc4c91f2cc579e02b2a08aa2c0fb4e3db5a4-c9-1744886636-1744854236&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Eleven Sports 2 PT
-https://pecdl.crackstreamslivehd.com/global/eleven2_pt/index.m3u8?token=ece19745aceff0bfdcfe447cdba9c5ee07bde5be-39-1744886641-1744854241&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Eleven Sports 3 PT
-https://miami.crackstreamslivehd.com/global/eleven3_pt/index.m3u8?token=b5a83b9ff09f3cdf47fec8d63b498a495f1bd3f8-7b-1744886645-1744854245&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Eleven Sports 4 PT
-https://london.crackstreamslivehd.com/global/eleven4_pt/index.m3u8?token=dd89564a38b3939b4bb36fa1411f53b69d2872ac-a4-1744886650-1744854250&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Eleven Sports 5 PT
-https://manolo.crackstreamslivehd.com/global/eleven5_pt/index.m3u8?token=e2e07a6dd5f330ff668c8a59188a04333bbbbe42-3f-1744886655-1744854255&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Canal 11 PT
-https://socio.crackstreamslivehd.com/global/canal11_pt/index.m3u8?token=b3cfd9b340f86b88b535e0446a97e39fde3c8c3a-3c-1744886660-1744854260&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sport TV 1 PT
-https://socio.crackstreamslivehd.com/global/sportv_1pt/index.m3u8?token=383e728e1574d6834b893d9fc4f000d84596fd4f-85-1744886665-1744854265&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sport TV 2 PT
-https://pecdl.crackstreamslivehd.com/global/sportv_2pt/index.m3u8?token=f2bbde6f731113bfc76e25dfd07f95c43c47017c-7f-1744886670-1744854270&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sport TV 3 PT
-https://madrid.crackstreamslivehd.com/global/sportv_3pt/index.m3u8?token=4793be0802559ca5dcd257ce444b511d86055ecd-d2-1744886675-1744854275&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sport TV 4 PT
-https://madrid.crackstreamslivehd.com/global/sportv_4pt/index.m3u8?token=bff58137e61daf3048c4edbb890b515fe21a243f-01-1744886680-1744854280&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sport TV 5 PT
-https://print.crackstreamslivehd.com/global/sporttv5/index.m3u8?token=9a1b05bf118b7cc1f622f855f589966037abd459-95-1744886685-1744854285&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sport TV 6 PT
-https://24a.crackstreamslivehd.com/global/sporttv6/index.m3u8?token=03ca72bae7241b4d74330a91fdb51b53c8a97937-aa-1744886690-1744854290&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sport TV 1 BR
-https://madrid.crackstreamslivehd.com/global/sporttvbr1/index.m3u8?token=3d7a31eab62c12d7c76aa2e5bcfcffda9014be6e-3d-1744886695-1744854295&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sport TV 2 BR
-https://51a.crackstreamslivehd.com/global/sporttvbr2/index.m3u8?token=daf5f768ee40198306306fbb33187154cbe046c5-4b-1744886700-1744854300&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sport TV 3 BR
-https://pecdl.crackstreamslivehd.com/global/sporttvbr3/index.m3u8?token=dfbbbe59f5adb9a07fdc97e3287aa9622c994701-b6-1744886705-1744854305&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Premiere 1 BR
-https://ca8s9.crackstreamslivehd.com/global/premiere1/index.m3u8?token=edd679684e07130f8b70bc91d02bbe8cf06bf8f8-3a-1744886710-1744854310&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Premiere 2 BR
-https://london.crackstreamslivehd.com/global/premiere2/index.m3u8?token=8dee57a7a129f7ad4ce402b7b4f0128386db2cd4-d0-1744886715-1744854315&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Premiere 3 BR
-https://manolo.crackstreamslivehd.com/global/premiere3/index.m3u8?token=05a89429b64f44018497bc26bb8debee324108b4-03-1744886720-1744854320&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Premier Sports 1 Irlanda
-https://14c5.crackstreamslivehd.com/global/premiersports1_irl/index.m3u8?token=f961b49b58f62e61caabd31df68802657bc66169-13-1744886725-1744854325&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Premier Sports 2 Irlanda
-https://london.crackstreamslivehd.com/global/premiersports2_irl/index.m3u8?token=9b45ce2d11dd4ed131789e59f26132191b8ab887-21-1744886730-1744854330&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 1 NL
-https://socio.crackstreamslivehd.com/global/espn_nl1/index.m3u8?token=7edaab4b1a4e1dfcaa9895558b5bad93860b48d8-86-1744886734-1744854334&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 2 NL
-https://14c5.crackstreamslivehd.com/global/espn_nl2/index.m3u8?token=49fc303f8545eb94035ee941480b65210e4390b5-29-1744886739-1744854339&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 3 NL
-https://florcd.crackstreamslivehd.com/global/espn_nl3/index.m3u8?token=be0e60d1ddffc258db12a15a73da558a49bfa155-22-1744886744-1744854344&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Caliente TV
-https://manolo.crackstreamslivehd.com/global/calientetvmx/index.m3u8?token=1366c37c8659ca0835d06e0851b044b95b845538-d1-1744886749-1744854349&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TSN 1
-https://miami.crackstreamslivehd.com/global/tsn1/index.m3u8?token=7eace9ac3cd53bdd0fc1dc8798976a8aface8966-64-1744886754-1744854354&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TSN 2
-https://madrid.crackstreamslivehd.com/global/tsn2/index.m3u8?token=05085064aad693ffd07f2f365317edf1844fcf93-db-1744886759-1744854359&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TSN 3
-https://print.crackstreamslivehd.com/global/tsn3/index.m3u8?token=910a239cc13e320354a38ab3458b2a103f23baa3-19-1744886764-1744854364&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TSN 4
-https://doc.crackstreamslivehd.com/global/tsn4/index.m3u8?token=b796061d3893b7866f3909d0950c70c3c05532a4-15-1744886769-1744854369&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TSN 5
-https://print.crackstreamslivehd.com/global/tsn5/index.m3u8?token=ee7181bc23a77de4c566bb08a106b4e94b900af9-db-1744886774-1744854374&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Vamos ES
-https://laisa.crackstreamslivehd.com/global/vamoses/index.m3u8?token=050a00b92f5bd3eb6d305804eb7d1f273ce42865-c3-1744886779-1744854379&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",USA Network
-https://pecdl.crackstreamslivehd.com/global/usa_network/index.m3u8?token=d60a9b8ea51403689c63a41d9fc91eb629bcb099-c9-1744886784-1744854384&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",SporstNet EAST
-https://florcd.crackstreamslivehd.com/global/sportnet_east/index.m3u8?token=43a5008404469b2726faa4cbcef2700a92771228-59-1744886789-1744854389&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",SN360
-https://manolo.crackstreamslivehd.com/global/sn360/index.m3u8?token=3315dca3dec03b7f0a5a86d42597e59fc2317ac4-a2-1744886794-1744854394&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TyC Sports Internacional
-https://print.crackstreamslivehd.com/global/tycinternacional/index.m3u8?token=84def64a44f208333f17b76e6f16305543fb8286-2b-1744886799-1744854399&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Canal 5 MX
-https://florcd.crackstreamslivehd.com/global/canal5mx/index.m3u8?token=7e4b800ceefb95ffa036676a40f3b7010615d0d2-3c-1744886804-1744854404&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",TUDN MX
-https://laisa.crackstreamslivehd.com/global/TUDNMX/index.m3u8?token=7f738df823c010e7c0395bfb24c603a544830ca2-ce-1744886809-1744854409&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Main Event
-https://london.crackstreamslivehd.com/global/skymain/index.m3u8?token=eed1fc9c3fe6b9d177b04cd0837130251d29e64f-77-1744886813-1744854413&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Premier League
-https://london.crackstreamslivehd.com/global/skypremierleague/index.m3u8?token=9fe3350a0714d2c864a894a0543d74c7b118f9ba-30-1744886818-1744854418&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Football
-https://manolo.crackstreamslivehd.com/global/skyfootball/index.m3u8?token=b8f6f7e6e5b7f97e1f512fe2e04e0713dfeae65f-4f-1744886823-1744854423&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Cricket
-https://24a.crackstreamslivehd.com/global/skycricket/index.m3u8?token=0d67537bc996432312ea8a36bcaa43a327b63af2-63-1744886828-1744854428&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Golf
-https://pecdl.crackstreamslivehd.com/global/skygolf/index.m3u8?token=1f503da91ecc68e5209d2b52de96780c43984eb3-e1-1744886833-1744854433&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports F1
-https://24a.crackstreamslivehd.com/global/skyf1/index.m3u8?token=0ef697af26abd12d1065f3233aae9f6624364c5f-f8-1744886838-1744854438&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Sky Sports Tennis
-https://24a.crackstreamslivehd.com/global/skytennis/index.m3u8?token=b3cab24058c533e6ac2dab9ae72641e4a9d3dd24-35-1744886843-1744854443&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",CBS Sports Golazo!
-https://24a.crackstreamslivehd.com/global/cbs_sportsnetwork/index.m3u8?token=7b5922fbc78c209ab3bd41fb7ce0a62098e26d47-6c-1744886848-1744854448&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",FUTV (EV)
-https://24a.crackstreamslivehd.com/global/futv/index.m3u8?token=cbd1aeeb33bc7b40bd5b4284c485925195f7467e-b3-1744886853-1744854453&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 1 BR
-https://tokio.crackstreamslivehd.com/global/espn1br/index.m3u8?token=67972faca4b2f8e1526f802b8f0154f2589c0514-7b-1744886858-1744854458&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 2 BR
-https://print.crackstreamslivehd.com/global/espn2br/index.m3u8?token=5bd8b3f2cd8ce913157b3e83a996beaa5e8bcecd-dd-1744886863-1744854463&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 3 BR
-https://tokio.crackstreamslivehd.com/global/espn3br/index.m3u8?token=45437c4caeb1ace2f5beffebb904cac9be0274e4-c3-1744886868-1744854468&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",ESPN 4 BR
-https://51a.crackstreamslivehd.com/global/espn4br/index.m3u8?token=8135175aa959623a7eee3879f50053dcee648e2e-ba-1744886873-1744854473&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",LaLiga Hypermotion
-https://manolo.crackstreamslivehd.com/global/laligahypermotion/index.m3u8?token=a1e376f8d488e176c494286b601dc20a9d50e958-d8-1744886878-1744854478&ip=20.42.17.117
 #EXTINF:-1 group-title="StreamTP4",Fox Deportes TUBI
-https://madrid.crackstreamslivehd.com/global/tubitv1/index.m3u8?token=0bc4ea8ab8c7616a294030bf0a36dfbe7b2e3261-d9-1744886883-1744854483&ip=20.42.17.117
