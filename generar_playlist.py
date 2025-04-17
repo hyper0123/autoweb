@@ -96,12 +96,15 @@ def captura_m3u8_la12hd(url):
     res = requests.get(url, headers=headers)
     soup = BeautifulSoup(res.text, "html.parser")
     scripts = soup.find_all("script")
+
     for script in scripts:
-        if script.string and "hls.loadSource" in script.string:
-            match = re.search(r'hls\.loadSource\("(.*?)"\)', script.string)
+        content = script.string or script.text  # Asegura capturar el texto del script
+        if content and "hls.loadSource" in content:
+            match = re.search(r'hls\.loadSource\(["\'](.*?)["\']\)', content)
             if match:
                 return match.group(1)
     return None
+
 
 
 def main():
