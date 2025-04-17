@@ -5,7 +5,7 @@ on:
     - cron: '0 * * * *'   # Cada hora (UTC)
   workflow_dispatch:      # Permite ejecución manual
 
-# 🔑 Concede permiso de escritura al GITHUB_TOKEN
+# 🔑 Dar permiso de escritura al GITHUB_TOKEN
 permissions:
   contents: write
 
@@ -33,11 +33,11 @@ jobs:
 
       - name: Instalar dependencias Python
         run: |
-          pip install selenium-wire
+          # Forzamos blinker<1.8.0 para que selenium-wire encuentre blinker._saferef
+          pip install "blinker<1.8.0" selenium-wire
 
       - name: Ejecutar script de extracción
         run: |
-          # Asegura que Selenium use el Chrome instalado
           export PATH=$PATH:/usr/bin/chromium-browser
           python3 generar_playlist.py
 
@@ -48,6 +48,5 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add playlist.m3u
-          # Solo hace commit si hay cambios
           git diff --cached --quiet || git commit -m "Actualización automática: $(date '+%Y-%m-%d %H:%M:%S')"
           git push origin HEAD:main
