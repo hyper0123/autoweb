@@ -36,7 +36,7 @@ jobs:
 
       - name: Instalar dependencias Python
         run: |
-          pip install "blinker<1.8.0" selenium-wire
+          pip install "blinker<1.8.0" selenium-wire beautifulsoup4
 
       - name: Ejecutar script de extracción
         run: |
