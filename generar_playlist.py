@@ -2,7 +2,7 @@
 # generar_playlist.py
 
 import time
-from seleniumwire import webdriver               # <- selenium-wire
+from seleniumwire import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -10,25 +10,19 @@ from selenium.webdriver.support import expected_conditions as EC
 
 MAIN_URL    = "https://streamtp4.com/"
 OUTPUT_FILE = "playlist.m3u"
-WAIT_SEC    = 15   # cuánto esperar a que cargue el reproductor
+WAIT_SEC    = 15
 
 def crea_driver():
-     chrome_options = Options()
-     chrome_options.add_argument("--headless")
-     # indica la ruta al ejecutable de Chromium
-     chrome_options.binary_location = "/usr/bin/chromium-browser"
-     chrome_options.add_argument("--headless")
-     chrome_options.add_argument("--no-sandbox")
-     chrome_options.add_argument("--disable-dev-shm-usage")
-     seleniumwire_options = { "enable_har": True }
-     return webdriver.Chrome(
-         options=chrome_options,
-         seleniumwire_options=seleniumwire_options
-     )
+    chrome_options = Options()
+    chrome_options.binary_location = "/usr/bin/chromium-browser"
+    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+
+    return webdriver.Chrome(options=chrome_options)
 
 def extrae_canales(driver):
     driver.get(MAIN_URL)
-    # espera a que #channel-list se pueble
     WebDriverWait(driver, WAIT_SEC).until(
         EC.presence_of_all_elements_located((By.CSS_SELECTOR, "#channel-list li"))
     )
@@ -43,27 +37,26 @@ def extrae_canales(driver):
     return out
 
 def captura_m3u8(driver, url):
-    # limpia peticiones previas
-    driver.scopes = ['.*']             
-    driver.request_interceptor = None  
-    driver.new_har("m3u8_capture", options={"captureHeaders": True})
+    m3u8_urls = []
+
+    def interceptor(request):
+        if ".m3u8" in request.url and request.url not in m3u8_urls:
+            m3u8_urls.append(request.url)
+
+    driver.request_interceptor = interceptor
 
     driver.get(url)
+    try:
+        WebDriverWait(driver, WAIT_SEC).until(
+            EC.presence_of_element_located((By.TAG_NAME, "video"))
+        )
+        time.sleep(3)  # pequeño margen adicional
+    except:
+        pass
 
-    # espera a que el <video> (o player JS) se inicialice
-    WebDriverWait(driver, WAIT_SEC).until(
-        EC.presence_of_element_located((By.TAG_NAME, "video"))
-    )
-    time.sleep(2)  # un poco de margen
+    driver.request_interceptor = None  # desactiva después de cargar
 
-    # busca en el HAR por cualquier request .m3u8
-    for entry in driver.har['log']['entries']:
-        req_url = entry['request']['url']
-        if ".m3u8" in req_url:
-            return req_url
-    return None
-
-
+    return m3u8_urls[0] if m3u8_urls else None
 
 def main():
     driver = crea_driver()
