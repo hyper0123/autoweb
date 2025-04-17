@@ -46,9 +46,10 @@ def captura_m3u8(driver, url):
     # limpia peticiones previas
     driver.scopes = ['.*']             
     driver.request_interceptor = None  
-    driver.har.clear()
+    driver.new_har("m3u8_capture", options={"captureHeaders": True})
     
     driver.get(url)
+
     # espera a que el <video> (o player JS) se inicialice
     WebDriverWait(driver, WAIT_SEC).until(
         EC.presence_of_element_located((By.TAG_NAME, "video"))
@@ -61,6 +62,7 @@ def captura_m3u8(driver, url):
         if ".m3u8" in req_url:
             return req_url
     return None
+
 
 def main():
     driver = crea_driver()
