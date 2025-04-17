@@ -14,10 +14,10 @@ WAIT_SEC    = 15   # cuánto esperar a que cargue el reproductor
 
 def crea_driver():
      chrome_options = Options()
--    chrome_options.add_argument("--headless")
-+    # indica la ruta al ejecutable de Chromium
-+    chrome_options.binary_location = "/usr/bin/chromium-browser"
-+    chrome_options.add_argument("--headless")
+     chrome_options.add_argument("--headless")
+     # indica la ruta al ejecutable de Chromium
+     chrome_options.binary_location = "/usr/bin/chromium-browser"
+     chrome_options.add_argument("--headless")
      chrome_options.add_argument("--no-sandbox")
      chrome_options.add_argument("--disable-dev-shm-usage")
      seleniumwire_options = { "enable_har": True }
