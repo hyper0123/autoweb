@@ -7,12 +7,10 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from bs4 import BeautifulSoup
 
-MAIN_URL    = "https://la12hd.com/"  # Cambia a https://streamtp4.com/ si querés
+MAIN_URL = "https://streamtp4.com/"  # Cambiar por la URL deseada
 OUTPUT_FILE = "playlist.m3u"
-WAIT_SEC    = 15
-
+WAIT_SEC = 25
 
 def crea_driver():
     chrome_options = Options()
@@ -20,42 +18,65 @@ def crea_driver():
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
+
     return webdriver.Chrome(options=chrome_options)
 
-
-def extrae_canales(driver):
-    print("→ Extrayendo lista de canales…")
+def detectar_estructura(driver):
     driver.get(MAIN_URL)
+    
+    try:
+        # Detectar si es streamtp4.com
+        WebDriverWait(driver, WAIT_SEC).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "#channel-list"))
+        )
+        return "streamtp4"
+    except:
+        try:
+            # Detectar si es la12hd.com
+            WebDriverWait(driver, WAIT_SEC).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, ".canal"))
+            )
+            return "la12hd"
+        except:
+            return "desconocida"
+
+def extraer_streamtp4(driver):
     WebDriverWait(driver, WAIT_SEC).until(
-        EC.presence_of_all_elements_located((By.TAG_NAME, "a"))
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, "#channel-list li"))
     )
-    soup = BeautifulSoup(driver.page_source, "html.parser")
     canales = []
-
-    if "la12hd.com" in MAIN_URL:
-        items = soup.select(".cardsection [data-canal]")
-        for item in items:
-            canal = item.get("data-canal", "Canal")
-            a_tag = item.select_one("a[href*='canal.php']")
-            if a_tag:
-                href = a_tag["href"]
-                if href.startswith("/"):
-                    href = MAIN_URL.rstrip("/") + href
-                canales.append((canal, href))
-
-    else:  # genérico para otros sitios como streamtp4.com
-        for li in soup.select("#channel-list li"):
-            h2 = li.find("h2")
-            a  = li.select_one(".channel-buttons a")
-            if h2 and a:
-                title = h2.text.strip()
-                href  = a["href"]
-                if href.startswith("/"):
-                    href = MAIN_URL.rstrip("/") + href
-                canales.append((title, href))
-
+    for li in driver.find_elements(By.CSS_SELECTOR, "#channel-list li"):
+        try:
+            title = li.find_element(By.TAG_NAME, "h2").text.strip()
+            href = li.find_element(By.CSS_SELECTOR, ".channel-buttons a").get_attribute("href")
+            canales.append((title, href, "StreamTP4"))
+        except Exception as e:
+            continue
     return canales
 
+def extraer_la12hd(driver):
+    WebDriverWait(driver, WAIT_SEC).until(
+        EC.presence_of_all_elements_located((By.CSS_SELECTOR, ".canal"))
+    )
+    canales = []
+    for canal in driver.find_elements(By.CSS_SELECTOR, ".canal"):
+        try:
+            title = canal.find_element(By.CSS_SELECTOR, ".font-bold.text-md.text-white").text.strip()
+            href = canal.find_element(By.CSS_SELECTOR, ".btn-red").get_attribute("href")
+            canales.append((title, href, "LA12HD"))
+        except Exception as e:
+            continue
+    return canales
+
+def extraer_canales(driver):
+    estructura = detectar_estructura(driver)
+    
+    if estructura == "streamtp4":
+        return extraer_streamtp4(driver)
+    elif estructura == "la12hd":
+        return extraer_la12hd(driver)
+    else:
+        raise Exception("Estructura de página no reconocida")
 
 def captura_m3u8(driver, url):
     m3u8_urls = []
@@ -65,41 +86,48 @@ def captura_m3u8(driver, url):
             m3u8_urls.append(request.url)
 
     driver.request_interceptor = interceptor
-    driver.get(url)
 
+    driver.get(url)
     try:
         WebDriverWait(driver, WAIT_SEC).until(
-            EC.presence_of_element_located((By.TAG_NAME, "iframe"))
+            EC.presence_of_element_located((By.TAG_NAME, "video"))
         )
-        time.sleep(5)
+        time.sleep(5)  # Tiempo adicional para cargar
     except:
         pass
 
     driver.request_interceptor = None
-    return m3u8_urls[0] if m3u8_urls else None
 
+    return m3u8_urls[0] if m3u8_urls else None
 
 def main():
     driver = crea_driver()
-    canales = extrae_canales(driver)
-
-    m3u_lines = ["#EXTM3U\n"]
-    for title, page_url in canales:
-        print(f"→ Procesando «{title}» …")
-        m3u8 = captura_m3u8(driver, page_url)
-        if m3u8:
-            m3u_lines.append(f'#EXTINF:-1 group-title="AutoTV",{title}\n{m3u8}\n')
-            print(f"   ✔ {m3u8}")
-        else:
-            print(f"   ⚠️ No encontré .m3u8 en {page_url}")
-        time.sleep(1)
-
-    driver.quit()
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.writelines(m3u_lines)
-    print(f"\n✔ Guardado {len(m3u_lines)-1} canales en {OUTPUT_FILE}")
-
+    
+    try:
+        canales = extraer_canales(driver)
+        m3u_lines = ["#EXTM3U\n"]
+        
+        for title, page_url, group in canales:
+            print(f"→ Procesando «{title}» ({group})...")
+            try:
+                m3u8 = captura_m3u8(driver, page_url)
+                if m3u8:
+                    m3u_lines.append(f'#EXTINF:-1 group-title="{group}",{title}\n{m3u8}\n')
+                    print(f"   ✔ {m3u8}")
+                else:
+                    print(f"   ⚠️ No se encontró .m3u8 en {page_url}")
+                time.sleep(2)
+            except Exception as e:
+                print(f"   ✖ Error: {str(e)}")
+                continue
+        
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            f.writelines(m3u_lines)
+            
+        print(f"\n✔ Guardados {len(m3u_lines)-1} canales en {OUTPUT_FILE}")
+        
+    finally:
+        driver.quit()
 
 if __name__ == "__main__":
     main()
