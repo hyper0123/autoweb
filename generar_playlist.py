@@ -2,16 +2,14 @@
 # generar_playlist.py
 
 import time
-import re
 from seleniumwire import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
-import requests
 
-MAIN_URL    = "https://la12hd.com/"  # Cambia a "https://streamtp4.com/" si deseas cambiar el sitio
+MAIN_URL    = "https://la12hd.com/"  # Cambia a https://streamtp4.com/ si querés
 OUTPUT_FILE = "playlist.m3u"
 WAIT_SEC    = 15
 
@@ -22,52 +20,44 @@ def crea_driver():
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
-
     return webdriver.Chrome(options=chrome_options)
 
 
 def extrae_canales(driver):
-    if "la12hd.com" in MAIN_URL:
-        return extrae_canales_la12hd()
-    else:
-        driver.get(MAIN_URL)
-        WebDriverWait(driver, WAIT_SEC).until(
-            EC.presence_of_all_elements_located((By.CSS_SELECTOR, "#channel-list li"))
-        )
-        out = []
-        for li in driver.find_elements(By.CSS_SELECTOR, "#channel-list li"):
-            try:
-                title = li.find_element(By.TAG_NAME, "h2").text.strip()
-                href  = li.find_element(By.CSS_SELECTOR, ".channel-buttons a").get_attribute("href")
-                out.append((title, href))
-            except:
-                continue
-        return out
-
-
-def extrae_canales_la12hd():
+    print("→ Extrayendo lista de canales…")
+    driver.get(MAIN_URL)
+    WebDriverWait(driver, WAIT_SEC).until(
+        EC.presence_of_all_elements_located((By.TAG_NAME, "a"))
+    )
+    soup = BeautifulSoup(driver.page_source, "html.parser")
     canales = []
-    headers = {
-        "User-Agent": "Mozilla/5.0"
-    }
-    res = requests.get(MAIN_URL, headers=headers)
-    soup = BeautifulSoup(res.text, "html.parser")
-    items = soup.select(".cardsection [data-canal]")
-    for item in items:
-        canal = item.get("data-canal", "Canal")
-        a_tag = item.select_one("a[href*='canal.php']")
-        if a_tag:
-            link = a_tag.get("href")
-            if link.startswith("/"):
-                link = MAIN_URL.rstrip("/") + link
-            canales.append((canal, link))
+
+    if "la12hd.com" in MAIN_URL:
+        items = soup.select(".cardsection [data-canal]")
+        for item in items:
+            canal = item.get("data-canal", "Canal")
+            a_tag = item.select_one("a[href*='canal.php']")
+            if a_tag:
+                href = a_tag["href"]
+                if href.startswith("/"):
+                    href = MAIN_URL.rstrip("/") + href
+                canales.append((canal, href))
+
+    else:  # genérico para otros sitios como streamtp4.com
+        for li in soup.select("#channel-list li"):
+            h2 = li.find("h2")
+            a  = li.select_one(".channel-buttons a")
+            if h2 and a:
+                title = h2.text.strip()
+                href  = a["href"]
+                if href.startswith("/"):
+                    href = MAIN_URL.rstrip("/") + href
+                canales.append((title, href))
+
     return canales
 
 
 def captura_m3u8(driver, url):
-    if "la12hd.com" in url:
-        return captura_m3u8_la12hd(url)
-
     m3u8_urls = []
 
     def interceptor(request):
@@ -76,11 +66,12 @@ def captura_m3u8(driver, url):
 
     driver.request_interceptor = interceptor
     driver.get(url)
+
     try:
         WebDriverWait(driver, WAIT_SEC).until(
-            EC.presence_of_element_located((By.TAG_NAME, "video"))
+            EC.presence_of_element_located((By.TAG_NAME, "iframe"))
         )
-        time.sleep(3)
+        time.sleep(5)
     except:
         pass
 
@@ -88,42 +79,22 @@ def captura_m3u8(driver, url):
     return m3u8_urls[0] if m3u8_urls else None
 
 
-def captura_m3u8_la12hd(url):
-    headers = {
-        "User-Agent": "Mozilla/5.0",
-        "Referer": "https://la12hd.com"
-    }
-    res = requests.get(url, headers=headers)
-    soup = BeautifulSoup(res.text, "html.parser")
-    scripts = soup.find_all("script")
-
-    for script in scripts:
-        content = script.string or script.text  # Asegura capturar el texto del script
-        if content and "hls.loadSource" in content:
-            match = re.search(r'hls\.loadSource\(["\'](.*?)["\']\)', content)
-            if match:
-                return match.group(1)
-    return None
-
-
-
 def main():
-    driver = crea_driver() if "la12hd.com" not in MAIN_URL else None
-    canales = extrae_canales(driver) if driver else extrae_canales_la12hd()
+    driver = crea_driver()
+    canales = extrae_canales(driver)
 
     m3u_lines = ["#EXTM3U\n"]
     for title, page_url in canales:
-        print(f"\u2192 Procesando «{title}» …")
-        m3u8 = captura_m3u8(driver, page_url) if driver else captura_m3u8_la12hd(page_url)
+        print(f"→ Procesando «{title}» …")
+        m3u8 = captura_m3u8(driver, page_url)
         if m3u8:
-            m3u_lines.append(f'#EXTINF:-1 group-title="La12HD",{title}\n{m3u8}\n')
+            m3u_lines.append(f'#EXTINF:-1 group-title="AutoTV",{title}\n{m3u8}\n')
             print(f"   ✔ {m3u8}")
         else:
             print(f"   ⚠️ No encontré .m3u8 en {page_url}")
         time.sleep(1)
 
-    if driver:
-        driver.quit()
+    driver.quit()
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.writelines(m3u_lines)
