@@ -67,6 +67,12 @@ def main():
         print(f"→ Procesando «{title}» …")
         m3u8 = captura_m3u8(driver, page_url)
         if m3u8:
+            m3u_lines.append(f'#EXTINF:-1 group-title="StreamTP4",{title}\n')
+            m3u_lines.append(f'#EXTVLCOPT:http-origin=https://la12hd.com\n')
+            m3u_lines.append(f'#EXTVLCOPT:http-referrer=https://la12hd.com/\n')
+            m3u_lines.append(f'#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36\n')
+            m3u_lines.append(f'{m3u8}\n')
+
             m3u_lines.append(f'#EXTINF:-1 group-title="StreamTP4",{title}\n{m3u8}\n')
             print(f"   ✔ {m3u8}")
         else:
