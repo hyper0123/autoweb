@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-MAIN_URL    = "https://la12hd.com/"
+MAIN_URL    = "https://streamtp4.com/"
 OUTPUT_FILE = "playlist.m3u"
 WAIT_SEC    = 15
 
