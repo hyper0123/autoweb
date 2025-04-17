@@ -1,10 +1,11 @@
+# .github/workflows/actualizar-playlist.yml
 name: Actualizar Playlist M3U
 on:
   schedule:
-    - cron: '0 * * * *'   # Ejecutar cada hora (UTC)
-  workflow_dispatch:      # También permite ejecución manual
+    - cron: '0 * * * *'   # Cada hora (UTC)
+  workflow_dispatch:      # Permite ejecución manual
 
-# 🔑 Concede permiso de escritura al token interno
+# 🔑 Concede permiso de escritura al GITHUB_TOKEN
 permissions:
   contents: write
 
@@ -20,22 +21,23 @@ jobs:
           persist-credentials: true
           fetch-depth: 0
 
-      - name: Instalar dependencias del sistema
+      - name: Instalar Chrome y WebDriver
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser chromium-chromedriver
 
-      - name: Configurar Python
+      - name: Configurar Python 3.10
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Instalar bibliotecas Python
+      - name: Instalar dependencias Python
         run: |
-          pip install requests beautifulsoup4 selenium
+          pip install selenium-wire
 
-      - name: Ejecutar script
+      - name: Ejecutar script de extracción
         run: |
+          # Asegura que Selenium use el Chrome instalado
           export PATH=$PATH:/usr/bin/chromium-browser
           python3 generar_playlist.py
 
