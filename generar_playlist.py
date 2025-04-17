@@ -47,7 +47,7 @@ def captura_m3u8(driver, url):
     driver.scopes = ['.*']             
     driver.request_interceptor = None  
     driver.new_har("m3u8_capture", options={"captureHeaders": True})
-    
+
     driver.get(url)
 
     # espera a que el <video> (o player JS) se inicialice
@@ -62,6 +62,7 @@ def captura_m3u8(driver, url):
         if ".m3u8" in req_url:
             return req_url
     return None
+
 
 
 def main():
