@@ -68,6 +68,7 @@ def captura_m3u8(driver, url):
     driver.get(url)
 
     try:
+        # para páginas que embeben en iframe
         WebDriverWait(driver, WAIT_SEC).until(
             EC.presence_of_element_located((By.TAG_NAME, "iframe"))
         )
@@ -76,7 +77,20 @@ def captura_m3u8(driver, url):
         pass
 
     driver.request_interceptor = None
+
+    # 1) Elige un master.m3u8 sin parámetros si existe
+    for u in m3u8_urls:
+        if u.endswith("master.m3u8") and ("?" not in u):
+            return u
+
+    # 2) Elige cualquier master.m3u8 con parámetros
+    for u in m3u8_urls:
+        if "master.m3u8" in u:
+            return u
+
+    # 3) Caída: la primera URL disponible
     return m3u8_urls[0] if m3u8_urls else None
+
 
 
 def main():
