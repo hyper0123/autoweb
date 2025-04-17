@@ -36,7 +36,6 @@ jobs:
 
       - name: Instalar dependencias Python
         run: |
-          # Forzamos blinker<1.8.0 para selenium-wire
           pip install "blinker<1.8.0" selenium-wire
 
       - name: Ejecutar script de extracción
