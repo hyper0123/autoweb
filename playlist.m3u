@@ -1,147 +1,159 @@
 #EXTM3U
-#EXTINF:-1 group-title="AutoTV",Gran Hermano CAM 3
-https://socio.crackstreamslivehd.com/global/grahermanocam3/index.m3u8?token=8b55e7a1e294a6ffad4655a5f298278f189323cf-ca-1745074523-1745042123&ip=20.55.229.129
+#EXTINF:-1 group-title="AutoTV",Gran Hermano CAM 1
+https://socio.crackstreamslivehd.com/global/grahermanocam1/index.m3u8?token=e5929490fdcc3017546b29dc3797ce2396c37af0-e4-1745077824-1745045424&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Gran Hermano CAM 2
+https://miami.crackstreamslivehd.com/global/grahermanocam2/index.m3u8?token=14ce162d6d5b23902772d74921128c63ded440b5-28-1745077831-1745045431&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Gran Hermano CAM 24H
-https://laisa.crackstreamslivehd.com/global/granhermanocamara24horas/index.m3u8?token=33f424941bbb58c5546294fc7138e83b315bac2f-7d-1745074530-1745042130&ip=20.55.229.129
+https://print.crackstreamslivehd.com/global/granhermanocamara24horas/index.m3u8?token=092ad8cb48d8f1d31a4936b4ff7f176bbfcc8e47-48-1745077844-1745045444&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Gran Hermano MultiCAM
+https://print.crackstreamslivehd.com/global/granhermanomulticam/index.m3u8?token=d4b79bf7fffe851bba1198eed761615c0c0cf028-36-1745077851-1745045451&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",ESPN 2
-https://print.crackstreamslivehd.com/global/espn2/index.m3u8?token=1126246ba3c137e931fce8f7c4ed6fb9b46c9444-e8-1745074549-1745042149&ip=20.55.229.129
+https://madrid.crackstreamslivehd.com/global/espn2/index.m3u8?token=62007778d99f5c155e693015cbf9f94bcb2dbd74-39-1745077863-1745045463&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",ESPN 3
+https://laisa.crackstreamslivehd.com/global/espn3/index.m3u8?token=be8e98d88ee76f7dfcadd422e0ca903670bb6733-d6-1745077870-1745045470&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",ESPN 4
-https://socio.crackstreamslivehd.com/global/espn4/index.m3u8?token=1f0b0c2d167adfccbef9e8c663224d11bcbf4108-2e-1745074563-1745042163&ip=20.55.229.129
+https://ca8s9.crackstreamslivehd.com/global/espn4/index.m3u8?token=333a030fd07ab37c69b20424f515d803b43576d3-fa-1745077877-1745045477&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",ESPN 5
-https://print.crackstreamslivehd.com/global/espn5/index.m3u8?token=1dfa3129779c0a1b26296b3d0fde1b497e02f697-2a-1745074569-1745042169&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",ESPN 6
-https://laisa.crackstreamslivehd.com/global/espn6/index.m3u8?token=ce86bfd58f072a345706d7d977afa0b9a837a0b8-99-1745074576-1745042176&ip=20.55.229.129
+https://print.crackstreamslivehd.com/global/espn5/index.m3u8?token=258f8c34877e79c05e0bfa97a50b9a9c8ebc24ca-d3-1745077884-1745045484&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",ESPN 7
+https://manolo.crackstreamslivehd.com/global/espn7/index.m3u8?token=33cc831d34ff872475b0b4770c16b511b72b1c0b-54-1745077897-1745045497&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Win Sports +
-https://print.crackstreamslivehd.com/global/winplus/index.m3u8?token=1f6c74a969c7e23eb27de98aecd7d5df4686aec2-2f-1745074589-1745042189&ip=20.55.229.129
+https://print.crackstreamslivehd.com/global/winplus/index.m3u8?token=eed4ca427e358971b3e11802be8f5fff9026aac3-52-1745077903-1745045503&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Win Sports + (Op2)
-https://socio.crackstreamslivehd.com/global/winplus2/index.m3u8?token=282e46e99ec2482dc6bee7649e43b52ef41da9c5-d3-1745074595-1745042195&ip=20.55.229.129
+https://ca8s9.crackstreamslivehd.com/global/winplus2/index.m3u8?token=685b215aa1c34d37e87e912d898c2619d82c0de7-7a-1745077909-1745045509&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Win Sports
-https://manolo.crackstreamslivehd.com/global/winsports/index.m3u8?token=3ba023ac2a2b8abdfe493ef3b51a9ff36f63ff2d-10-1745074602-1745042202&ip=20.55.229.129
+https://print.crackstreamslivehd.com/global/winsports/index.m3u8?token=52cfb30768a9314e9aa32bf63ba9c5e8da967f74-88-1745077916-1745045516&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Win Play +
-https://miami.crackstreamslivehd.com/global/winplusonline1/index.m3u8?token=0be46ca7ca5c2bfea698a337bbb3f8cc43ba0129-35-1745074608-1745042208&ip=20.55.229.129
+https://madrid.crackstreamslivehd.com/global/winplusonline1/index.m3u8?token=477974db082dc3c116c18f001c241c2c7308e5ea-20-1745077922-1745045522&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Fox Sports 1 (Argentina)
+https://london.crackstreamslivehd.com/global/fox1ar/index.m3u8?token=ee2fbc6efa53a43dfdc86b748636df55489ba9a1-cc-1745077929-1745045529&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Fox Sports 2 (Argentina)
-https://print.crackstreamslivehd.com/global/fox2ar/index.m3u8?token=86c87c7911bfde1fdaa605c26e07665a84f3692f-2d-1745074621-1745042221&ip=20.55.229.129
+https://laisa.crackstreamslivehd.com/global/fox2ar/index.m3u8?token=4c53a90ace689082b0b221acf4ad7f782848a52a-a8-1745077935-1745045535&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Fox Sports 3 (Argentina)
-https://socio.crackstreamslivehd.com/global/fox3ar/index.m3u8?token=75e93c7a968e87c884c7153280c197fd4e031560-49-1745074628-1745042228&ip=20.55.229.129
+https://ca8s9.crackstreamslivehd.com/global/fox3ar/index.m3u8?token=44f353d1416587f1bf3304573afdb3ca5896004d-27-1745077942-1745045542&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Dsports
-https://laisa.crackstreamslivehd.com/global/dsports/index.m3u8?token=9458651a239088db35e1be9f03f195b52c9018aa-a0-1745074634-1745042234&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Dsports 2
-https://socio.crackstreamslivehd.com/global/dsports2/index.m3u8?token=4325486fd78e778491057de9fae0233f81fdc546-bb-1745074640-1745042240&ip=20.55.229.129
+https://manolo.crackstreamslivehd.com/global/dsports/index.m3u8?token=fe308d8a39eba62edb50365d46bdd123c45f94ea-76-1745077948-1745045548&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Dsports +
+https://madrid.crackstreamslivehd.com/global/dsportsplus/index.m3u8?token=253f84582c728ac6afa821d7537bf5c8e47eb902-b9-1745077961-1745045561&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",TNT Sports Chile
-https://socio.crackstreamslivehd.com/global/tntsportschile/index.m3u8?token=dce4f16753b7ba1c8e1d4cff16ab1197ee12dec0-e8-1745074653-1745042253&ip=20.55.229.129
+https://socio.crackstreamslivehd.com/global/tntsportschile/index.m3u8?token=414e5c8fa2005793d2b1b98b77b275ac9c2108fc-38-1745077968-1745045568&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",TNT Sports Argentina
-https://miami.crackstreamslivehd.com/global/tntsports/index.m3u8?token=72537dd392c3cdd60ba11c26e8f22d4c6d16b126-f6-1745074660-1745042260&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",ESPN Premium Argentina
-https://london.crackstreamslivehd.com/global/espnpremium/index.m3u8?token=29673dcdaf522886548d4ccdc63a68df0baa603f-b3-1745074666-1745042266&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Telefe
-https://london.crackstreamslivehd.com/global/telefe/index.m3u8?token=59c77297cee47257fecf716d0a8100c8775a9423-76-1745074679-1745042279&ip=20.55.229.129
+https://london.crackstreamslivehd.com/global/tntsports/index.m3u8?token=5292d4e3a506e988cce6c637659e4236645171d3-8f-1745077974-1745045574&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",TV Pública
+https://london.crackstreamslivehd.com/global/tv_publica/index.m3u8?token=061a3953f28a2ba3d474c8494830a4ed629dc823-2f-1745078000-1745045600&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Liga 1 MAX
-https://miami.crackstreamslivehd.com/global/liga1max/index.m3u8?token=d48f86b264eb33b06cb1e8bba03eff5909e5698c-01-1745074692-1745042292&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",GolTV
-https://socio.crackstreamslivehd.com/global/goltv/index.m3u8?token=0c772f7ebee50e78c2341603993fbdc4df8639ed-07-1745074699-1745042299&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",VTV +
-https://print.crackstreamslivehd.com/global/vtvplus/index.m3u8?token=5dab9ea0d197a547ca05e87075b36c46f7d43223-af-1745074705-1745042305&ip=20.55.229.129
+https://laisa.crackstreamslivehd.com/global/liga1max/index.m3u8?token=5c2c42cc2395231d7568bbc5c11ac4c50610a9cc-0d-1745078006-1745045606&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",GolPeru
+https://tokio.crackstreamslivehd.com/global/golperu/index.m3u8?token=c224655e151b52204146cb26c8e6fce2e46277aa-9c-1745078026-1745045626&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",ESPN Deportes USA
-https://tokio.crackstreamslivehd.com/global/espndeportes/index.m3u8?token=69f39588d47989ae956030f6f9595050f2104347-60-1745074718-1745042318&ip=20.55.229.129
+https://miami.crackstreamslivehd.com/global/espndeportes/index.m3u8?token=52a8aa9ca1544ae692e96e718737f0ccd805bd10-75-1745078032-1745045632&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",TUDN USA
-https://print.crackstreamslivehd.com/global/tudn_usa/index.m3u8?token=4e32adb9146ef76ca88129e6b8b2bf972223ae79-43-1745074724-1745042324&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Fox Sports 1 USA
-https://miami.crackstreamslivehd.com/global/fox_1_usa/index.m3u8?token=844c7a316a1e1e07a443af77df333d26742ca932-4f-1745074731-1745042331&ip=20.55.229.129
+https://ca8s9.crackstreamslivehd.com/global/tudn_usa/index.m3u8?token=40c75546c46c5f3d7633ef8e38828c3335150668-f8-1745078038-1745045638&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Universo USA
-https://manolo.crackstreamslivehd.com/global/universo_usa/index.m3u8?token=c587bf3de8ed624a69b7afcf79a8b9486e6231c5-ee-1745074744-1745042344&ip=20.55.229.129
+https://london.crackstreamslivehd.com/global/universo_usa/index.m3u8?token=70c4e0e804b99b30f1782b14c06abba038c81e2b-3a-1745078058-1745045658&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Univisíon USA
-https://socio.crackstreamslivehd.com/global/univision_usa/index.m3u8?token=4a8698bd39c728d39fc3493174bdbaddf8b5958e-4a-1745074750-1745042350&ip=20.55.229.129
+https://madrid.crackstreamslivehd.com/global/univision_usa/index.m3u8?token=437057116f17c9efa9b2be5bed75571f9ed5302d-1a-1745078064-1745045664&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Fox Deportes USA
-https://laisa.crackstreamslivehd.com/global/fox_deportes_usa/index.m3u8?token=21d107d384bacd66e41ff796236043198a270476-8b-1745074757-1745042357&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Fox Sports 2 MX
-https://print.crackstreamslivehd.com/global/foxsports2mx/index.m3u8?token=bf093ecdf59484babe8dd704dc3c14f2fd3d1dac-19-1745074776-1745042376&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Fox Sports Premium
-https://ca8s9.crackstreamslivehd.com/global/foxsportspremium/index.m3u8?token=9a84cb0312e7ef8cfe056340ad6e6592c1476a64-4e-1745074789-1745042389&ip=20.55.229.129
+https://london.crackstreamslivehd.com/global/fox_deportes_usa/index.m3u8?token=c4451bfd58fd72d8c348445ea7e2882ddfb586c2-9b-1745078071-1745045671&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Fox Sports 1 MX
+https://miami.crackstreamslivehd.com/global/foxsportsmx/index.m3u8?token=925f1599d736a134f2f5e85393c9c1b83909af63-6d-1745078084-1745045684&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",ESPN MX
+https://manolo.crackstreamslivehd.com/global/espnmx/index.m3u8?token=b7e008140573fc38f2c6a94bdc87c0c4737fc5b1-65-1745078109-1745045709&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",ESPN 3 MX
-https://print.crackstreamslivehd.com/global/espn3mx/index.m3u8?token=1530c77144286059016471aa52f1a22160fece83-1d-1745074808-1745042408&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",TVC Deportes MX
-https://tokio.crackstreamslivehd.com/global/tvc_deportes/index.m3u8?token=91b6583a8ecbfeb04dd1eb5046e335c17d125bfa-03-1745074815-1745042415&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Movistar+ LaLiga
-https://miami.crackstreamslivehd.com/global/movistarlaliga/index.m3u8?token=73083d31d9cef1efa3074f2d4deacf5b12538f75-6d-1745074847-1745042447&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Caracol TV
-https://socio.crackstreamslivehd.com/global/caracoltv/index.m3u8?token=6db75c3fb9e0047e61156d2e855805a12dc2c11b-5f-1745074860-1745042460&ip=20.55.229.129
+https://ca8s9.crackstreamslivehd.com/global/espn3mx/index.m3u8?token=2a03aa418b86185e098cd7f764bdf89ed5776ac6-55-1745078122-1745045722&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",HI! Sports MX
+https://manolo.crackstreamslivehd.com/global/hisports/index.m3u8?token=c7bd4b0360bb0a71b5ab51b2f67bf43cb141d2b9-c9-1745078135-1745045735&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",DAZN 1 ES
+https://madrid.crackstreamslivehd.com/global/dazn1/index.m3u8?token=197f1f85c2a06db263a8cc73338801217960cdb5-05-1745078142-1745045742&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",DAZN 2 ES
+https://manolo.crackstreamslivehd.com/global/dazn2/index.m3u8?token=bbc1a131e6a16c5c3fe017bedd895f7e7cdec928-46-1745078148-1745045748&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Movistar Liga de Campeones
+https://london.crackstreamslivehd.com/global/movistarligadecampeones/index.m3u8?token=9e175826160296f6539cfc3a7740b9078bb32177-3f-1745078168-1745045768&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",TNT 1 GB
-https://london.crackstreamslivehd.com/global/tnt_1_gb/index.m3u8?token=b84034d90366412d4dc7caa0b9cbe0ae1e9fc25a-e8-1745074867-1745042467&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",TNT 2 GB
-https://print.crackstreamslivehd.com/global/tnt_2_gb/index.m3u8?token=5f118d4969790498d6e8b74ebf7a7e8806258907-54-1745074873-1745042473&ip=20.55.229.129
+https://tokio.crackstreamslivehd.com/global/tnt_1_gb/index.m3u8?token=49dbd683e633ed4943cd30ba5e8a57bd1de0e6f9-50-1745078180-1745045780&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",TNT 3 GB
-https://laisa.crackstreamslivehd.com/global/tnt_3_gb/index.m3u8?token=e857a857627b489ce2dc268459589ff18145806f-63-1745074879-1745042479&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",TNT 4 GB
-https://socio.crackstreamslivehd.com/global/tnt_4_gb/index.m3u8?token=9d7630e8b1db09cb4d2a0baa45707becbe5fcd4d-41-1745074886-1745042486&ip=20.55.229.129
+https://manolo.crackstreamslivehd.com/global/tnt_3_gb/index.m3u8?token=9245dbe4e96e93eef2d023a74f6d20caef63ee7a-84-1745078193-1745045793&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Sky Sports Bundesliga 1
+https://print.crackstreamslivehd.com/global/sky_bundesliga1/index.m3u8?token=05491731e9f588c3cd33a51d69f58ec1bb9938ca-98-1745078206-1745045806&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sky Sports Bundesliga 3
-https://ca8s9.crackstreamslivehd.com/global/sky_bundesliga3/index.m3u8?token=d75ecc9a84ade8f6ba3fe119e0291fa5955d0410-8b-1745074905-1745042505&ip=20.55.229.129
+https://ca8s9.crackstreamslivehd.com/global/sky_bundesliga3/index.m3u8?token=4a1f47049c7a970177d013893d9d25447b65cd69-a7-1745078219-1745045819&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sky Sports Bundesliga 4
-https://print.crackstreamslivehd.com/global/sky_bundesliga4/index.m3u8?token=871319868fb0461dde8be91b7ea84316c4a1af2c-74-1745074912-1745042512&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Eleven Sports 2 PT
-https://ca8s9.crackstreamslivehd.com/global/eleven2_pt/index.m3u8?token=e1392ddd06f15a633f44e3c3f1f59babe680496b-e4-1745074931-1745042531&ip=20.55.229.129
+https://laisa.crackstreamslivehd.com/global/sky_bundesliga4/index.m3u8?token=2a013184ec89ccd1a88b0c9d86b0c19122405e49-34-1745078226-1745045826&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Sky Sports Bundesliga 5
+https://socio.crackstreamslivehd.com/global/sky_bundesliga5/index.m3u8?token=b6e128f4428a26eb48277abe9b0b5cb1bcd3800c-83-1745078232-1745045832&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Eleven Sports 1 PT
+https://print.crackstreamslivehd.com/global/eleven1_pt/index.m3u8?token=347c4d501edc94da6177d2ee7b86f817d851d55c-2f-1745078238-1745045838&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Eleven Sports 3 PT
+https://laisa.crackstreamslivehd.com/global/eleven3_pt/index.m3u8?token=6859c1a1dfd9e431bd4b3b4939711ee7dac7ca08-00-1745078251-1745045851&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Eleven Sports 4 PT
-https://laisa.crackstreamslivehd.com/global/eleven4_pt/index.m3u8?token=399611d46838dcd1c43375f2e7c638968a2500e0-d4-1745074944-1745042544&ip=20.55.229.129
+https://miami.crackstreamslivehd.com/global/eleven4_pt/index.m3u8?token=c7670cedaf701ba0fde9c56c82e3b2362b498177-f3-1745078258-1745045858&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Eleven Sports 5 PT
+https://print.crackstreamslivehd.com/global/eleven5_pt/index.m3u8?token=7338229df4f418574f0fe39169d41eae015c3ac8-e9-1745078264-1745045864&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Canal 11 PT
-https://tokio.crackstreamslivehd.com/global/canal11_pt/index.m3u8?token=65af9c53d9b0be78b03347707a7f3a3fcb506ef1-65-1745074957-1745042557&ip=20.55.229.129
+https://madrid.crackstreamslivehd.com/global/canal11_pt/index.m3u8?token=e69d8938f9c1ec88132770492b17c22c3cc5dc58-9c-1745078271-1745045871&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sport TV 1 PT
-https://print.crackstreamslivehd.com/global/sportv_1pt/index.m3u8?token=28143df454c5e3eb2c02932efb457407906c5b00-6e-1745074963-1745042563&ip=20.55.229.129
+https://socio.crackstreamslivehd.com/global/sportv_1pt/index.m3u8?token=613b101d71d78518002262b0ed49153de12aaf8e-c7-1745078277-1745045877&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Sport TV 2 PT
+https://print.crackstreamslivehd.com/global/sportv_2pt/index.m3u8?token=47c98de344770438cb5b01c8ef2819283748555d-e5-1745078284-1745045884&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Sport TV 3 PT
+https://print.crackstreamslivehd.com/global/sportv_3pt/index.m3u8?token=d982b4ba8f16406a0a7ff68db18644b9c7c4a83d-4e-1745078290-1745045890&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sport TV 4 PT
-https://london.crackstreamslivehd.com/global/sportv_4pt/index.m3u8?token=90a4e57d33d6bc75ae85802ff14a74146b684122-db-1745074983-1745042583&ip=20.55.229.129
+https://miami.crackstreamslivehd.com/global/sportv_4pt/index.m3u8?token=12e5a14046dce7c3b8854ed960c5fe586a28ce8d-4a-1745078297-1745045897&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sport TV 5 PT
-https://manolo.crackstreamslivehd.com/global/sporttv5/index.m3u8?token=50d66289f6acc95b82786c55b1912dbecbdbbf2c-32-1745074989-1745042589&ip=20.55.229.129
+https://laisa.crackstreamslivehd.com/global/sporttv5/index.m3u8?token=7316fef5f8b5a914010b2f81999700acd8636e4b-f0-1745078303-1745045903&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sport TV 6 PT
-https://miami.crackstreamslivehd.com/sporttv5/tracks-v1a1/mono.m3u8?ip=20.55.229.129&token=50d66289f6acc95b82786c55b1912dbecbdbbf2c-32-1745074989-1745042589
-#EXTINF:-1 group-title="AutoTV",Sport TV 1 BR
-https://miami.crackstreamslivehd.com/global/sporttvbr1/index.m3u8?token=64cff0398486a67073a12aa03c4991ff3759ac36-ca-1745075002-1745042602&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Sport TV 2 BR
-https://laisa.crackstreamslivehd.com/global/sporttvbr2/index.m3u8?token=2e7904dd16a572774da77427d6d930029d470f38-dd-1745075009-1745042609&ip=20.55.229.129
+https://manolo.crackstreamslivehd.com/global/sporttv6/index.m3u8?token=ce39299007acf5c1bae1d5c22f645a3e1df9a095-12-1745078309-1745045909&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sport TV 3 BR
-https://manolo.crackstreamslivehd.com/global/sporttvbr3/index.m3u8?token=ec803fff8dd6bb69130c6c06e670727669a528b5-55-1745075015-1745042615&ip=20.55.229.129
+https://miami.crackstreamslivehd.com/global/sporttvbr3/index.m3u8?token=a2d53c0dff0b96a8578af6a122cc3909c96118a5-24-1745078329-1745045929&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Premiere 1 BR
-https://ca8s9.crackstreamslivehd.com/global/premiere1/index.m3u8?token=1ec92a03fb7f9688e0aa56394d5f37988db5ef58-ef-1745075022-1745042622&ip=20.55.229.129
+https://manolo.crackstreamslivehd.com/global/premiere1/index.m3u8?token=46badfc14b2f1622291caea19571a49ece64c167-be-1745078335-1745045935&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Premiere 2 BR
+https://print.crackstreamslivehd.com/global/premiere2/index.m3u8?token=f83f459269d91c6e197c597ed0fe3c5344983439-5e-1745078342-1745045942&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Premiere 3 BR
-https://tokio.crackstreamslivehd.com/global/premiere3/index.m3u8?token=52b221e8e0755f4a63e6d685cd680c9bf63579ce-e6-1745075035-1745042635&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Premier Sports 1 Irlanda
-https://miami.crackstreamslivehd.com/global/premiersports1_irl/index.m3u8?token=eaae58902ccf001507994a2064620ccca3c980ed-09-1745075041-1745042641&ip=20.55.229.129
+https://tokio.crackstreamslivehd.com/global/premiere3/index.m3u8?token=8206a051996e2dc4bc953b8eb82149a5998276f9-eb-1745078348-1745045948&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Premier Sports 2 Irlanda
+https://ca8s9.crackstreamslivehd.com/global/premiersports2_irl/index.m3u8?token=db4652e8b25beed7104bfc6c6558082ab34b93e2-88-1745078361-1745045961&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",ESPN 1 NL
+https://print.crackstreamslivehd.com/global/espn_nl1/index.m3u8?token=2db37fc2341df4a2995892b896f6245ce44a5f7f-fc-1745078368-1745045968&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",ESPN 2 NL
+https://manolo.crackstreamslivehd.com/global/espn_nl2/index.m3u8?token=b4e917f79cda9631a501136377698b97d894d166-c4-1745078374-1745045974&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",ESPN 3 NL
-https://ca8s9.crackstreamslivehd.com/global/espn_nl3/index.m3u8?token=9d50d1f9647026249b5698aead720fe6bfbdc018-6d-1745075067-1745042667&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Caliente TV
-https://socio.crackstreamslivehd.com/global/calientetvmx/index.m3u8?token=bf67c4e518e4f672bc3ab7c507c66ccfabdd6a05-38-1745075073-1745042673&ip=20.55.229.129
+https://london.crackstreamslivehd.com/global/espn_nl3/index.m3u8?token=fb814c55ddf6ae6d645706d873b72bcc0f5ab8e0-b0-1745078381-1745045981&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",TSN 1
+https://manolo.crackstreamslivehd.com/global/tsn1/index.m3u8?token=f48a62903332521dca124fc96293816f28f6acbb-cf-1745078393-1745045993&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",TSN 3
+https://manolo.crackstreamslivehd.com/global/tsn3/index.m3u8?token=ec989a448ab6c139299f8145db60e71fba33acc8-fa-1745078406-1745046006&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",TSN 4
-https://manolo.crackstreamslivehd.com/global/tsn4/index.m3u8?token=40d7159f2f1bc092c84aad45f8c6b9eb8093d7b1-85-1745075099-1745042699&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",TSN 5
-https://tokio.crackstreamslivehd.com/global/tsn5/index.m3u8?token=6e6311ea02b021034c527efd4d633d6cf3b79fe4-8a-1745075106-1745042706&ip=20.55.229.129
+https://socio.crackstreamslivehd.com/global/tsn4/index.m3u8?token=a967ac1b432bf304c427278663a81f3dc0eccc2e-4d-1745078413-1745046013&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Vamos ES
-https://print.crackstreamslivehd.com/global/vamoses/index.m3u8?token=b16c5ace911829a3cbf9bdab8c2fee1461fb6db0-84-1745075112-1745042712&ip=20.55.229.129
+https://tokio.crackstreamslivehd.com/global/vamoses/index.m3u8?token=d3441c48e64edb72efe2450ca33874738a9d3d96-16-1745078426-1745046026&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",USA Network
-https://london.crackstreamslivehd.com/global/usa_network/index.m3u8?token=a33a8b2d409a85dc28cf18ccdcee0d2e854b6c46-d4-1745075119-1745042719&ip=20.55.229.129
+https://madrid.crackstreamslivehd.com/global/usa_network/index.m3u8?token=55e7d008e5c28fe41be3c877fc472fa4d554f1cf-7f-1745078432-1745046032&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",SporstNet EAST
+https://tokio.crackstreamslivehd.com/global/sportnet_east/index.m3u8?token=2ec40bb42dd0eacf5d840d67f1c0da9f5cd55ef8-83-1745078439-1745046039&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",SN360
-https://manolo.crackstreamslivehd.com/global/sn360/index.m3u8?token=a5f8f4a8a92cf94c7e310abc0aa14f7c77539fc2-ef-1745075131-1745042731&ip=20.55.229.129
+https://print.crackstreamslivehd.com/global/sn360/index.m3u8?token=5a0b175278d6c406db553e9ffeaefecb5836d262-f1-1745078445-1745046045&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",TyC Sports Internacional
-https://laisa.crackstreamslivehd.com/global/tycinternacional/index.m3u8?token=b6f1500545e7321b59e8faa58c6f4920db5e521b-c9-1745075138-1745042738&ip=20.55.229.129
+https://london.crackstreamslivehd.com/global/tycinternacional/index.m3u8?token=41a7b347a0632e4d5747d00c9fda3e02c7b54a76-a7-1745078451-1745046051&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Canal 5 MX
-https://tokio.crackstreamslivehd.com/global/canal5mx/index.m3u8?token=8c23b1ada05c29b871975313fe18f3ba20968481-d6-1745075144-1745042744&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",TUDN MX
-https://socio.crackstreamslivehd.com/global/TUDNMX/index.m3u8?token=b780b72cbc26c42d2060cd5d4f3c113c53027338-07-1745075151-1745042751&ip=20.55.229.129
+https://print.crackstreamslivehd.com/global/canal5mx/index.m3u8?token=3dfe3dca27a01771f8dfa65be8d24f3ca848ba1a-58-1745078458-1745046058&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sky Sports Main Event
-https://miami.crackstreamslivehd.com/global/skymain/index.m3u8?token=db8ce5fef99f25e1ef64daf08b92726f648516e6-c5-1745075157-1745042757&ip=20.55.229.129
+https://socio.crackstreamslivehd.com/global/skymain/index.m3u8?token=76e3d1a928ad6354d52635746ca6233fd9893f6e-4c-1745078471-1745046071&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sky Sports Premier League
-https://print.crackstreamslivehd.com/global/skypremierleague/index.m3u8?token=5c2dd8890b3e75f1c0c25476f2387cd18e96be64-df-1745075164-1745042764&ip=20.55.229.129
+https://laisa.crackstreamslivehd.com/global/skypremierleague/index.m3u8?token=4c676c14d4cd46e7dca74921e3ccf83895858509-21-1745078477-1745046077&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sky Sports Football
-https://socio.crackstreamslivehd.com/global/skyfootball/index.m3u8?token=a9bdf218d52ff20ca031dee4ae920a028b1ae7a0-33-1745075170-1745042770&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Sky Sports Cricket
-https://ca8s9.crackstreamslivehd.com/global/skycricket/index.m3u8?token=1a0d6c99b74f415a666198da6e1247db7072febb-5b-1745075177-1745042777&ip=20.55.229.129
+https://laisa.crackstreamslivehd.com/global/skyfootball/index.m3u8?token=9f48ebcbb8e314401439b2e43bbcde79b9e36e1c-1f-1745078484-1745046084&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",Sky Sports Golf
-https://manolo.crackstreamslivehd.com/global/skygolf/index.m3u8?token=6df500919729d50ecaf1ede35ba12bf0567a7612-1e-1745075183-1745042783&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",Sky Sports Tennis
-https://manolo.crackstreamslivehd.com/global/skytennis/index.m3u8?token=d1b49caee37032d016d2c434bc934178e15bb478-de-1745075196-1745042796&ip=20.55.229.129
+https://print.crackstreamslivehd.com/global/skygolf/index.m3u8?token=b5881f3f9fa5a5df49d9c2626768377dc429c73c-8b-1745078497-1745046097&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Sky Sports F1
+https://print.crackstreamslivehd.com/global/skyf1/index.m3u8?token=14877816000a6ea29e024184c5aa9ba8cdd792f6-5b-1745078503-1745046103&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",CBS Sports Golazo!
-https://socia.crackstreamslivehd.com/skytennis/tracks-v1a1/mono.m3u8?ip=20.55.229.129&token=d1b49caee37032d016d2c434bc934178e15bb478-de-1745075196-1745042796
-#EXTINF:-1 group-title="AutoTV",FUTV (EV)
-https://ca8s9.crackstreamslivehd.com/global/futv/index.m3u8?token=ba96f5a4f03e44c6cd0a0a6dd74779c9e8dd3aa1-f3-1745075209-1745042809&ip=20.55.229.129
+https://madrid.crackstreamslivehd.com/global/cbs_sportsnetwork/index.m3u8?token=37ac95a57f556fd9948d4a9721f4330f88c634b0-d5-1745078516-1745046116&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",ESPN 1 BR
-https://miami.crackstreamslivehd.com/global/espn1br/index.m3u8?token=1678e7e1b8a564155c673846ba6ce37b80bae342-9f-1745075215-1745042815&ip=20.55.229.129
-#EXTINF:-1 group-title="AutoTV",ESPN 4 BR
-https://manolo.crackstreamslivehd.com/global/espn4br/index.m3u8?token=a80ee01f579b3f91f858db1507b4f6429f13accf-bf-1745075235-1745042835&ip=20.55.229.129
+https://london.crackstreamslivehd.com/global/espn1br/index.m3u8?token=5ad1532e3d6fb4401bbc506e556198355cdc36f9-c9-1745078529-1745046129&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",ESPN 2 BR
+https://miami.crackstreamslivehd.com/global/espn2br/index.m3u8?token=532e24abde73663d015126987538a93f05a413fc-6e-1745078535-1745046135&ip=20.42.51.107
 #EXTINF:-1 group-title="AutoTV",LaLiga Hypermotion
-https://tokio.crackstreamslivehd.com/global/laligahypermotion/index.m3u8?token=7552f052ef3316b5ac81f758be5a78e864af8da2-f0-1745075241-1745042841&ip=20.55.229.129
+https://miami.crackstreamslivehd.com/global/laligahypermotion/index.m3u8?token=96f52b42dc01540bf4751c12d092bde822422c6e-dc-1745078555-1745046155&ip=20.42.51.107
+#EXTINF:-1 group-title="AutoTV",Fox Deportes TUBI
+https://tokio.crackstreamslivehd.com/global/tubitv1/index.m3u8?token=6d3d6647d513911815193efd5c7ea0eaf0f46f84-d9-1745078561-1745046161&ip=20.42.51.107
