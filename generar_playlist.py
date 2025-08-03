@@ -9,7 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 
-MAIN_URL    = "https://streamtp4.com/"  # Cambia a https://streamtp4.com/ si querés
+MAIN_URL    = "https://ejemplo.com/"  # Cambia a https://streamtp4.com/ si querés
 OUTPUT_FILE = "playlist.m3u"
 WAIT_SEC    = 15
 
